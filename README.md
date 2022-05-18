@@ -15,4 +15,4 @@ images of articles of clothing taken from Zalando, an European fashion website. 
 The following 3 model architectures are implemented:
 1. (`Vanilla-GAN-Generate-MNIST.ipynb`) Consists of a generator & discriminator implemented with feed-forward layers. This was used for digit generation using the `MNIST` and `FashionMNIST` datasets. 
 2. **Experiment 1: (`CNNs.ipynb`)** GAN using convolutional layers, and tested on all 3 datasets mentioned above. 
-3. **Experiment 2: (`Wasserstein-GAN-Generate-MNIST-ipynb`)** Variant GAN known as a Wasserstein GAN (outlined in [here](https://agustinus.kristia.de/techblog/2017/02/04/wasserstein-gan/)) was implemented, and its performance was compared to the original GAN model. 
+3. **Experiment 2: (`Wasserstein-GAN-Generate-MNIST-ipynb`)** Variant GAN known as a Wasserstein GAN (outlined [here](https://arxiv.org/abs/1701.07875)) was implemented, and its performance was compared to the original GAN model. 
