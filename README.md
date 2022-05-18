@@ -1,5 +1,5 @@
 # Generative Adversarial Network
-Implementation of a Generative Adversarial Network (GAN) for the purpose of digit generation, clothing article generation, and generation of human faces, using the `MNIST`, `FashionMNIST`, and `CelebFaces` datasets. The original paper can be found [here](https://arxiv.org/pdf/1406.2661.pdf).
+Pytorch implementation of a Generative Adversarial Network (GAN) for the purpose of digit generation, clothing article generation, and generation of human faces, using the `MNIST`, `FashionMNIST`, and `CelebFaces` datasets. The original paper can be found [here](https://arxiv.org/pdf/1406.2661.pdf).
 
 ## Theory
 
@@ -14,7 +14,7 @@ images of articles of clothing taken from Zalando, an European fashion website. 
 
 The following 3 model architectures are implemented:
 1. (`Vanilla-GAN-Generate-MNIST.ipynb`) Consists of a generator & discriminator implemented with feed-forward layers. This was used for digit generation using the `MNIST` and `FashionMNIST` datasets. 
-2. **Experiment 1: (`CNNs.ipynb`)** GAN using convolutional layers, and tested on all 3 datasets mentioned above. 
+2. **Experiment 1: (`CNN-GAN.ipynb`)** GAN using convolutional layers, and tested on all 3 datasets mentioned above. 
 3. **Experiment 2: (`Wasserstein-GAN-Generate-MNIST-ipynb`)** Variant GAN known as a Wasserstein GAN (outlined [here](https://arxiv.org/abs/1701.07875)) was implemented, and its performance was compared to the original GAN model. 
 
 ## Final Results
